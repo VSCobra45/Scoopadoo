@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bestsellers</title>
+
+<style>
+
+body {
+    background-color: #fffdf7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Title */
+.heading {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.heading span {
+    color: red;
+    font-weight: bold;
+}
+
+/* Grid */
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+/* Product Card */
+.card {
+    width: 220px;
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 140px;
+    height: auto;
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.buy-btn {
+    background-color: red;
+    padding: 10px 18px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.buy-btn:hover {
+    background-color: #c30000;
+}
+
+.home-btn {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 18px;
+    background-color: #e11d48;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.home-btn:hover {
+    background-color: #c7153d;
+}
+
+</style>
+
+</head>
+<body>
+    <a href="front.html" class="home-btn">⟵ Return to Homepage</a>
+
+<h1 class="heading"><span>best</span> SELLERS</h1>
+
+<div class="product-container">
+
+    <div class="card">
+        <img src="zulu.png" alt="Zulubar Dark Crunch">
+        <h3>Zulubar Dark Crunch</h3>
+        <a href="buy.html" class="buy-btn">BUY NOW</a>
+    </div>
+
+    <div class="card">
+        <img src="berries.png" alt="Wild Berries">
+        <h3>Wild Berries</h3>
+        <a href="buy.html" class="buy-btn">BUY NOW</a>
+    </div>
+
+    <div class="card">
+        <img src="kulfi.png" alt="Rajwadi Kulfi Falooda">
+        <h3>Rajwadi Kulfi Falooda</h3>
+        <a href="buy.html" class="buy-btn">BUY NOW</a>
+    </div>
+
+    <div class="card">
+        <img src="cream.png" alt="Cookie N Cream">
+        <h3>Cookie N Cream</h3>
+        <a href="buy.html" class="buy-btn">BUY NOW</a>
+    </div>
+
+</div>
+
+</body>
+</html>
